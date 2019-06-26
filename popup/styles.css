@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Damion');
+@import url('../styles/main.css');
+
+body {
+    width: 250px;
+    height: 200px;
+    padding: 16px;
+}
+
+.header img {
+    height: 20px;
+    width: auto;
+}
+
+.header i {
+    color: #35c1cf;
+    opacity: .7;
+    font-size: 20px;
+    transition-duration: 500ms;
+}
+
+.header i:hover {
+    cursor: pointer;
+    opacity: 1;
+    transform: rotate(90deg);
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 16px;
+    left: 16px;
+    width: calc(100% - 32px);
+    height: calc(100% - 32px);
+    justify-content: center;
+    background-color: white;
+}
+
+.overlay .header {
+    justify-content: center;
+}
+
+.overlay a {
+    padding: 0 50px 5px;
+    color: #35c1cf;
+    font-size: 15px;
+    letter-spacing: 1px;
+
+}
